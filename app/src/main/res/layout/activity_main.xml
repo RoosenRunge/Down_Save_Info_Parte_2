@@ -13,12 +13,16 @@
         android:id="@+id/editTextXML"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
+
         android:hint=" escreva aqui sua mensagem"
         android:layout_marginBottom="50dp"
         />
-
+    <Button
+        android:id="@+id/downloadXML"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Download"
+        android:layout_marginBottom="20dp"/>
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
